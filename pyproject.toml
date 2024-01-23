@@ -5,10 +5,11 @@ description = ""
 authors = ["Alex Melville"]
 # readme = "README.md"
 # license = "BSD"
-packages = [{ include = "sample_package" }]
+packages = [{ include = "notion_srs_scanner" }]
 
 [tool.poetry.dependencies]
 python = "^3.10"
+requests = "^2.31.0"
 
 [build-system]
 requires = ["poetry-core"]
